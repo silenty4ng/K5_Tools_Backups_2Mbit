@@ -1,0 +1,1568 @@
+[2024-01-21T22:29:20.587277 20404] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.587454 20404] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.587523 20404] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.587523 20404] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.587523 20404] Config: (default) base_dir = 
+[2024-01-21T22:29:20.587523 20404] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.587523 20404] Config: (default) compiler = 
+[2024-01-21T22:29:20.587523 20404] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.587523 20404] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.587523 20404] Config: (default) compression = true
+[2024-01-21T22:29:20.587523 20404] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.587523 20404] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.587523 20404] Config: (default) debug = false
+[2024-01-21T22:29:20.587523 20404] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.587523 20404] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.587523 20404] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.587523 20404] Config: (default) disable = false
+[2024-01-21T22:29:20.587523 20404] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.587523 20404] Config: (default) file_clone = false
+[2024-01-21T22:29:20.587523 20404] Config: (default) hard_link = false
+[2024-01-21T22:29:20.587523 20404] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.587523 20404] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.587523 20404] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.587523 20404] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.587523 20404] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.587523 20404] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.587523 20404] Config: (default) max_files = 0
+[2024-01-21T22:29:20.587523 20404] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.587523 20404] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.587523 20404] Config: (default) namespace = 
+[2024-01-21T22:29:20.587523 20404] Config: (default) path = 
+[2024-01-21T22:29:20.587523 20404] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.587523 20404] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.587523 20404] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.587523 20404] Config: (default) read_only = false
+[2024-01-21T22:29:20.587523 20404] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.587523 20404] Config: (default) recache = false
+[2024-01-21T22:29:20.587523 20404] Config: (default) remote_only = false
+[2024-01-21T22:29:20.587523 20404] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.587523 20404] Config: (default) reshare = false
+[2024-01-21T22:29:20.587523 20404] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.587523 20404] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.587523 20404] Config: (default) stats = true
+[2024-01-21T22:29:20.587523 20404] Config: (default) stats_log = 
+[2024-01-21T22:29:20.587523 20404] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.587523 20404] Config: (default) umask = 
+[2024-01-21T22:29:20.587642 20404] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src __constants.c
+[2024-01-21T22:29:20.594404 8092 ] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.594483 8092 ] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.594492 8092 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.594545 20404] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) absolute_paths_in_stderr [2024-01-21T22:29:20.594600 20404] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+ta\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) compiler = 
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) compression = true
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) debug = false
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) disable = false
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) file_clone = false
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) hard_link = false
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.594492 8092 ] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) max_files = 0
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) namespace = 
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) path = 
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) read_only = false
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) recache = false
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) remote_only = false
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) reshare = false
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.594492 8092 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) stats = true
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) stats_log = 
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.594492 8092 ] Config: (default) umask = 
+[2024-01-21T22:29:20.594578 8092 ] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src __helpers.c
+[2024-01-21T22:29:20.594703 20404] Compiler type: gcc
+[2024-01-21T22:29:20.595243 20404] Source file: __constants.c
+[2024-01-21T22:29:20.595270 20404] Object file: __constants.o
+[2024-01-21T22:29:20.595585 20404] Trying direct lookup
+[2024-01-21T22:29:20.595839 20404] Manifest key: e0c1vbd7mgp6bnj2hq6ntukfagqr4b61m
+[2024-01-21T22:29:20.596106 20404] Retrieved e0c1vbd7mgp6bnj2hq6ntukfagqr4b61m from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/0/c1vbd7mgp6bnj2hq6ntukfagqr4b61mM)
+[2024-01-21T22:29:20.602441 8092 ] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.602493 8092 ] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.602511 8092 ] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.602519 8092 ] Compiler type: gcc
+[2024-01-21T22:29:20.602942 8092 ] Source file: __helpers.c
+[2024-01-21T22:29:20.602960 8092 ] Object file: __helpers.o
+[2024-01-21T22:29:20.603144 8092 ] Trying direct lookup
+[2024-01-21T22:29:20.603306 8092 ] Manifest key: b84ea1lfnqe4vttl1ah2qarlolk9imn9k
+[2024-01-21T22:29:20.603530 8092 ] Retrieved b84ea1lfnqe4vttl1ah2qarlolk9imn9k from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/8/4ea1lfnqe4vttl1ah2qarlolk9imn9kM)
+[2024-01-21T22:29:20.603981 24976] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.604080 24976] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.604099 24976] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.604099 24976] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.604099 24976] Config: (default) base_dir = 
+[2024-01-21T22:29:20.604099 24976] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.604099 24976] Config: (default) compiler = 
+[2024-01-21T22:29:20.604099 24976] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.604099 24976] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.604099 24976] Config: (default) compression = true
+[2024-01-21T22:29:20.604099 24976] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.604099 24976] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.604099 24976] Config: (default) debug = false
+[2024-01-21T22:29:20.604099 24976] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.604099 24976] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.604099 24976] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.604099 24976] Config: (default) disable = false
+[2024-01-21T22:29:20.604099 24976] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.604099 24976] Config: (default) file_clone = false
+[2024-01-21T22:29:20.604099 24976] Config: (default) hard_link = false
+[2024-01-21T22:29:20.604099 24976] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.604099 24976] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.604099 24976] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.604099 24976] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.604099 24976] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.604099 24976] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.604099 24976] Config: (default) max_files = 0
+[2024-01-21T22:29:20.604099 24976] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.604099 24976] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.604099 24976] Config: (default) namespace = 
+[2024-01-21T22:29:20.604099 24976] Config: (default) path = 
+[2024-01-21T22:29:20.604099 24976] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.604099 24976] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.604099 24976] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.604099 24976] Config: (default) read_only = false
+[2024-01-21T22:29:20.604099 24976] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.604099 24976] Config: (default) recache = false
+[2024-01-21T22:29:20.604099 24976] Config: (default) remote_only = false
+[2024-01-21T22:29:20.604099 24976] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.604099 24976] Config: (default) reshare = false
+[2024-01-21T22:29:20.604099 24976] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.604099 24976] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.604099 24976] Config: (default) stats = true
+[2024-01-21T22:29:20.604099 24976] Config: (default) stats_log = 
+[2024-01-21T22:29:20.604099 24976] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.604099 24976] Config: (default) umask = 
+[2024-01-21T22:29:20.604214 24976] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src __loader.c
+[2024-01-21T22:29:20.611335 24976] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.611374 24976] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.611390 24976] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.611398 24976] Compiler type: gcc
+[2024-01-21T22:29:20.611795 24976] Source file: __loader.c
+[2024-01-21T22:29:20.611810 24976] Object file: __loader.o
+[2024-01-21T22:29:20.611983 24976] Trying direct lookup
+[2024-01-21T22:29:20.612271 24976] Manifest key: 2690n2u3af6dhui5eb6fjum9u8ru2uo34
+[2024-01-21T22:29:20.612457 24976] Retrieved 2690n2u3af6dhui5eb6fjum9u8ru2uo34 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/6/90n2u3af6dhui5eb6fjum9u8ru2uo34M)
+[2024-01-21T22:29:20.624401 24460] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.624537 24460] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.624554 24460] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.624554 24460] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.624554 24460] Config: (default) base_dir = 
+[2024-01-21T22:29:20.624554 24460] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.624554 24460] Config: (default) compiler = 
+[2024-01-21T22:29:20.624554 24460] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.624554 24460] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.624554 24460] Config: (default) compression = true
+[2024-01-21T22:29:20.624554 24460] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.624554 24460] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.624554 24460] Config: (default) debug = false
+[2024-01-21T22:29:20.624554 24460] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.624554 24460] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.624554 24460] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.624554 24460] Config: (default) disable = false
+[2024-01-21T22:29:20.624554 24460] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.624554 24460] Config: (default) file_clone = false
+[2024-01-21T22:29:20.624554 24460] Config: (default) hard_link = false
+[2024-01-21T22:29:20.624554 24460] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.624554 24460] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.624554 24460] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.624554 24460] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.624554 24460] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.624554 24460] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.624554 24460] Config: (default) max_files = 0
+[2024-01-21T22:29:20.624554 24460] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.624554 24460] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.624554 24460] Config: (default) namespace = 
+[2024-01-21T22:29:20.624554 24460] Config: (default) path = 
+[2024-01-21T22:29:20.624554 24460] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.624554 24460] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.624554 24460] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.624554 24460] Config: (default) read_only = false
+[2024-01-21T22:29:20.624554 24460] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.624554 24460] Config: (default) recache = false
+[2024-01-21T22:29:20.624554 24460] Config: (default) remote_only = false
+[2024-01-21T22:29:20.624554 24460] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.624554 24460] Config: (default) reshare = false
+[2024-01-21T22:29:20.624554 24460] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.624554 24460] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.624554 24460] Config: (default) stats = true
+[2024-01-21T22:29:20.624554 24460] Config: (default) stats_log = 
+[2024-01-21T22:29:20.624554 24460] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.624554 24460] Config: (default) umask = 
+[2024-01-21T22:29:20.624694 24460] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2024-01-21T22:29:20.632936 24460] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.632991 24460] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.633009 24460] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.633025 24460] Compiler type: gcc
+[2024-01-21T22:29:20.633552 24460] Source file: module.__main__.c
+[2024-01-21T22:29:20.633582 24460] Object file: module.__main__.o
+[2024-01-21T22:29:20.633809 24460] Trying direct lookup
+[2024-01-21T22:29:20.634752 24460] Manifest key: 363eis39j3p6ruf7f6nhf3m53fc3246j6
+[2024-01-21T22:29:20.635043 24460] Retrieved 363eis39j3p6ruf7f6nhf3m53fc3246j6 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/6/3eis39j3p6ruf7f6nhf3m53fc3246j6M)
+[2024-01-21T22:29:20.638348 16740] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.638438 16740] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.638452 16740] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.638452 16740] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.638452 16740] Config: (default) base_dir = 
+[2024-01-21T22:29:20.638452 16740] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.638452 16740] Config: (default) compiler = 
+[2024-01-21T22:29:20.638452 16740] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.638452 16740] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.638452 16740] Config: (default) compression = true
+[2024-01-21T22:29:20.638452 16740] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.638452 16740] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.638452 16740] Config: (default) debug = false
+[2024-01-21T22:29:20.638452 16740] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.638452 16740] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.638452 16740] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.638452 16740] Config: (default) disable = false
+[2024-01-21T22:29:20.638452 16740] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.638452 16740] Config: (default) file_clone = false
+[2024-01-21T22:29:20.638452 16740] Config: (default) hard_link = false
+[2024-01-21T22:29:20.638452 16740] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.638452 16740] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.638452 16740] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.638452 16740] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.638452 16740] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.638452 16740] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.638452 16740] Config: (default) max_files = 0
+[2024-01-21T22:29:20.638452 16740] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.638452 16740] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.638452 16740] Config: (default) namespace = 
+[2024-01-21T22:29:20.638452 16740] Config: (default) path = 
+[2024-01-21T22:29:20.638452 16740] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.638452 16740] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.638452 16740] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.638452 16740] Config: (default) read_only = false
+[2024-01-21T22:29:20.638452 16740] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.638452 16740] Config: (default) recache = false
+[2024-01-21T22:29:20.638452 16740] Config: (default) remote_only = false
+[2024-01-21T22:29:20.638452 16740] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.638452 16740] Config: (default) reshare = false
+[2024-01-21T22:29:20.638452 16740] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.638452 16740] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.638452 16740] Config: (default) stats = true
+[2024-01-21T22:29:20.638452 16740] Config: (default) stats_log = 
+[2024-01-21T22:29:20.638452 16740] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.638452 16740] Config: (default) umask = 
+[2024-01-21T22:29:20.638632 16740] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.const_vars.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.const_vars.c
+[2024-01-21T22:29:20.639326 24976] Got result key from manifest
+[2024-01-21T22:29:20.639385 24976] Result key: fc89pq4pga42h5pc3nqhn4n3hdkppfli0
+[2024-01-21T22:29:20.639702 24976] Retrieved fc89pq4pga42h5pc3nqhn4n3hdkppfli0 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/c/89pq4pga42h5pc3nqhn4n3hdkppfli0R)
+[2024-01-21T22:29:20.640086 24976] Reading embedded entry #0 .o (21647 bytes)
+[2024-01-21T22:29:20.640118 24976] Writing to __loader.o
+[2024-01-21T22:29:20.640665 24976] Succeeded getting cached result
+[2024-01-21T22:29:20.640742 24976] Result: direct_cache_hit
+[2024-01-21T22:29:20.640753 24976] Result: local_storage_hit
+[2024-01-21T22:29:20.640760 24976] Result: local_storage_read_hit
+[2024-01-21T22:29:20.640768 24976] Result: local_storage_read_hit
+[2024-01-21T22:29:20.640793 24976] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2024-01-21T22:29:20.641638 24976] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2024-01-21T22:29:20.642731 24976] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2024-01-21T22:29:20.642835 24976] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2024-01-21T22:29:20.646664 12392] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.646747 12392] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.646761 12392] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.646761 12392] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.646761 12392] Config: (default) base_dir = 
+[2024-01-21T22:29:20.646761 12392] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.646761 12392] Config: (default) compiler = 
+[2024-01-21T22:29:20.646761 12392] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.646761 12392] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.646761 12392] Config: (default) compression = true
+[2024-01-21T22:29:20.646761 12392] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.646761 12392] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.646761 12392] Config: (default) debug = false
+[2024-01-21T22:29:20.646761 12392] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.646761 12392] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.646761 12392] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.646761 12392] Config: (default) disable = false
+[2024-01-21T22:29:20.646761 12392] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.646761 12392] Config: (default) file_clone = false
+[2024-01-21T22:29:20.646761 12392] Config: (default) hard_link = false
+[2024-01-21T22:29:20.646761 12392] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.646761 12392] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.646761 12392] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.646761 12392] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.646761 12392] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.646761 12392] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.646761 12392] Config: (default) max_files = 0
+[2024-01-21T22:29:20.646761 12392] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.646761 12392] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.646761 12392] Config: (default) namespace = 
+[2024-01-21T22:29:20.646761 12392] Config: (default) path = 
+[2024-01-21T22:29:20.646761 12392] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.646761 12392] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.646761 12392] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.646761 12392] Config: (default) read_only = false
+[2024-01-21T22:29:20.646761 12392] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.646761 12392] Config: (default) recache = false
+[2024-01-21T22:29:20.646761 12392] Config: (default) remote_only = false
+[2024-01-21T22:29:20.646761 12392] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.646761 12392] Config: (default) reshare = false
+[2024-01-21T22:29:20.646761 12392] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.646761 12392] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.646761 12392] Config: (default) stats = true
+[2024-01-21T22:29:20.646761 12392] Config: (default) stats_log = 
+[2024-01-21T22:29:20.646761 12392] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.646761 12392] Config: (default) umask = 
+[2024-01-21T22:29:20.646898 12392] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.functions.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.functions.c
+[2024-01-21T22:29:20.647601 16740] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.647644 16740] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.647657 16740] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.647741 16740] Compiler type: gcc
+[2024-01-21T22:29:20.648207 16740] Source file: module.const_vars.c
+[2024-01-21T22:29:20.648229 16740] Object file: module.const_vars.o
+[2024-01-21T22:29:20.648429 16740] Trying direct lookup
+[2024-01-21T22:29:20.648665 16740] Manifest key: e144s73f64mb0sjd3ifd4v74je5i8850e
+[2024-01-21T22:29:20.648876 16740] Retrieved e144s73f64mb0sjd3ifd4v74je5i8850e from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/1/44s73f64mb0sjd3ifd4v74je5i8850eM)
+[2024-01-21T22:29:20.654851 12392] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.654911 12392] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.654929 12392] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.654942 12392] Compiler type: gcc
+[2024-01-21T22:29:20.655433 12392] Source file: module.functions.c
+[2024-01-21T22:29:20.655459 12392] Object file: module.functions.o
+[2024-01-21T22:29:20.655662 12392] Trying direct lookup
+[2024-01-21T22:29:20.656455 12392] Manifest key: b4f5da3r9ddshlb1i7lk20dc70rgeol8q
+[2024-01-21T22:29:20.657348 12392] No b4f5da3r9ddshlb1i7lk20dc70rgeol8q in local storage
+[2024-01-21T22:29:20.658545 12392] Running preprocessor
+[2024-01-21T22:29:20.658947 12392] Executing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src -E -o C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/cpp_stdout.tmp.VvaAuS.i module.functions.c
+[2024-01-21T22:29:20.661187 12964] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.661283 12964] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.661297 12964] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.661297 12964] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.661297 12964] Config: (default) base_dir = 
+[2024-01-21T22:29:20.661297 12964] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.661297 12964] Config: (default) compiler = 
+[2024-01-21T22:29:20.661297 12964] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.661297 12964] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.661297 12964] Config: (default) compression = true
+[2024-01-21T22:29:20.661297 12964] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.661297 12964] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.661297 12964] Config: (default) debug = false
+[2024-01-21T22:29:20.661297 12964] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.661297 12964] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.661297 12964] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.661297 12964] Config: (default) disable = false
+[2024-01-21T22:29:20.661297 12964] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.661297 12964] Config: (default) file_clone = false
+[2024-01-21T22:29:20.661297 12964] Config: (default) hard_link = false
+[2024-01-21T22:29:20.661297 12964] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.661297 12964] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.661297 12964] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.661297 12964] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.661297 12964] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.661297 12964] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.661297 12964] Config: (default) max_files = 0
+[2024-01-21T22:29:20.661297 12964] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.661297 12964] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.661297 12964] Config: (default) namespace = 
+[2024-01-21T22:29:20.661297 12964] Config: (default) path = 
+[2024-01-21T22:29:20.661297 12964] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.661297 12964] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.661297 12964] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.661297 12964] Config: (default) read_only = false
+[2024-01-21T22:29:20.661297 12964] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.661297 12964] Config: (default) recache = false
+[2024-01-21T22:29:20.661297 12964] Config: (default) remote_only = false
+[2024-01-21T22:29:20.661297 12964] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.661297 12964] Config: (default) reshare = false
+[2024-01-21T22:29:20.661297 12964] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.661297 12964] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.661297 12964] Config: (default) stats = true
+[2024-01-21T22:29:20.661297 12964] Config: (default) stats_log = 
+[2024-01-21T22:29:20.661297 12964] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.661297 12964] Config: (default) umask = 
+[2024-01-21T22:29:20.661394 12964] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.logger.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.logger.c
+[2024-01-21T22:29:20.669873 12964] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.669930 12964] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.669949 12964] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.669959 12964] Compiler type: gcc
+[2024-01-21T22:29:20.670498 12964] Source file: module.logger.c
+[2024-01-21T22:29:20.670541 12964] Object file: module.logger.o
+[2024-01-21T22:29:20.670754 12964] Trying direct lookup
+[2024-01-21T22:29:20.670974 12964] Manifest key: 3facgn0ps783ajqjiohmbraj9e4l1ggkm
+[2024-01-21T22:29:20.671193 12964] Retrieved 3facgn0ps783ajqjiohmbraj9e4l1ggkm from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/f/acgn0ps783ajqjiohmbraj9e4l1ggkmM)
+[2024-01-21T22:29:20.671233 15212] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.671322 15212] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.671400 15212] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.671400 15212] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.671400 15212] Config: (default) base_dir = 
+[2024-01-21T22:29:20.671400 15212] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.671400 15212] Config: (default) compiler = 
+[2024-01-21T22:29:20.671400 15212] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.671400 15212] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.671400 15212] Config: (default) compression = true
+[2024-01-21T22:29:20.671400 15212] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.671400 15212] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.671400 15212] Config: (default) debug = false
+[2024-01-21T22:29:20.671400 15212] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.671400 15212] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.671400 15212] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.671400 15212] Config: (default) disable = false
+[2024-01-21T22:29:20.671400 15212] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.671400 15212] Config: (default) file_clone = false
+[2024-01-21T22:29:20.671400 15212] Config: (default) hard_link = false
+[2024-01-21T22:29:20.671400 15212] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.671400 15212] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.671400 15212] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.671400 15212] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.671400 15212] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.671400 15212] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.671400 15212] Config: (default) max_files = 0
+[2024-01-21T22:29:20.671400 15212] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.671400 15212] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.671400 15212] Config: (default) namespace = 
+[2024-01-21T22:29:20.671400 15212] Config: (default) path = 
+[2024-01-21T22:29:20.671400 15212] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.671400 15212] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.671400 15212] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.671400 15212] Config: (default) read_only = false
+[2024-01-21T22:29:20.671400 15212] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.671400 15212] Config: (default) recache = false
+[2024-01-21T22:29:20.671400 15212] Config: (default) remote_only = false
+[2024-01-21T22:29:20.671400 15212] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.671400 15212] Config: (default) reshare = false
+[2024-01-21T22:29:20.671400 15212] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.671400 15212] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.671400 15212] Config: (default) stats = true
+[2024-01-21T22:29:20.671400 15212] Config: (default) stats_log = 
+[2024-01-21T22:29:20.671400 15212] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.671400 15212] Config: (default) umask = 
+[2024-01-21T22:29:20.671549 15212] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.resources.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.resources.c
+[2024-01-21T22:29:20.680533 15212] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.680583 15212] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.680600 15212] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.680615 15212] Compiler type: gcc
+[2024-01-21T22:29:20.681133 15212] Source file: module.resources.c
+[2024-01-21T22:29:20.681165 15212] Object file: module.resources.o
+[2024-01-21T22:29:20.681390 15212] Trying direct lookup
+[2024-01-21T22:29:20.681592 15212] Manifest key: 0c8c8li1hggh86l2n5jbk687kma4a0kd6
+[2024-01-21T22:29:20.681764 15212] Retrieved 0c8c8li1hggh86l2n5jbk687kma4a0kd6 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/c/8c8li1hggh86l2n5jbk687kma4a0kd6M)
+[2024-01-21T22:29:20.682356 20404] Got result key from manifest
+[2024-01-21T22:29:20.682398 20404] Result key: f1d4mffc3o0bturu5u354a1eu2so1qs1k
+[2024-01-21T22:29:20.682664 20404] Retrieved f1d4mffc3o0bturu5u354a1eu2so1qs1k from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/1/d4mffc3o0bturu5u354a1eu2so1qs1kR)
+[2024-01-21T22:29:20.682927 20404] Reading embedded entry #0 .o (3066 bytes)
+[2024-01-21T22:29:20.682944 20404] Writing to __constants.o
+[2024-01-21T22:29:20.683439 20404] Succeeded getting cached result
+[2024-01-21T22:29:20.683497 20404] Result: direct_cache_hit
+[2024-01-21T22:29:20.683510 20404] Result: local_storage_hit
+[2024-01-21T22:29:20.683519 20404] Result: local_storage_read_hit
+[2024-01-21T22:29:20.683528 20404] Result: local_storage_read_hit
+[2024-01-21T22:29:20.683545 20404] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/4/stats.lock
+[2024-01-21T22:29:20.683710 13824] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.683800 13824] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.683813 13824] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.683813 13824] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.683813 13824] Config: (default) base_dir = 
+[2024-01-21T22:29:20.683813 13824] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.683813 13824] Config: (default) compiler = 
+[2024-01-21T22:29:20.683813 13824] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.683813 13824] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.683813 13824] Config: (default) compression = true
+[2024-01-21T22:29:20.683813 13824] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.683813 13824] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.683813 13824] Config: (default) debug = false
+[2024-01-21T22:29:20.683813 13824] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.683813 13824] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.683813 13824] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.683813 13824] Config: (default) disable = false
+[2024-01-21T22:29:20.683813 13824] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.683813 13824] Config: (default) file_clone = false
+[2024-01-21T22:29:20.683813 13824] Config: (default) hard_link = false
+[2024-01-21T22:29:20.683813 13824] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.683813 13824] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.683813 13824] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.683813 13824] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.683813 13824] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.683813 13824] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.683813 13824] Config: (default) max_files = 0
+[2024-01-21T22:29:20.683813 13824] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.683813 13824] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.683813 13824] Config: (default) namespace = 
+[2024-01-21T22:29:20.683813 13824] Config: (default) path = 
+[2024-01-21T22:29:20.683813 13824] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.683813 13824] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.683813 13824] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.683813 13824] Config: (default) read_only = false
+[2024-01-21T22:29:20.683813 13824] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.683813 13824] Config: (default) recache = false
+[2024-01-21T22:29:20.683813 13824] Config: (default) remote_only = false
+[2024-01-21T22:29:20.683813 13824] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.683813 13824] Config: (default) reshare = false
+[2024-01-21T22:29:20.683813 13824] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.683813 13824] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.683813 13824] Config: (default) stats = true
+[2024-01-21T22:29:20.683813 13824] Config: (default) stats_log = 
+[2024-01-21T22:29:20.683813 13824] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.683813 13824] Config: (default) umask = 
+[2024-01-21T22:29:20.683980 13824] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.resources.font.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.resources.font.c
+[2024-01-21T22:29:20.684601 20404] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/4/stats.lock
+[2024-01-21T22:29:20.686528 20404] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/4/stats.lock
+[2024-01-21T22:29:20.686645 20404] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/4/stats.lock
+[2024-01-21T22:29:20.693661 8092 ] Got result key from manifest
+[2024-01-21T22:29:20.693784 8092 ] Result key: 8b20l2tjhsv2q1h0ponmov5l6h3186gic
+[2024-01-21T22:29:20.694218 8092 ] Retrieved 8b20l2tjhsv2q1h0ponmov5l6h3186gic from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/b/20l2tjhsv2q1h0ponmov5l6h3186gicR)
+[2024-01-21T22:29:20.694697 8092 ] Reading embedded entry #0 .o (462 bytes)
+[2024-01-21T22:29:20.694749 8092 ] Writing to __helpers.o
+[2024-01-21T22:29:20.695235 8092 ] Succeeded getting cached result
+[2024-01-21T22:29:20.695308 8092 ] Result: direct_cache_hit
+[2024-01-21T22:29:20.695318 8092 ] Result: local_storage_hit
+[2024-01-21T22:29:20.695326 8092 ] Result: local_storage_read_hit
+[2024-01-21T22:29:20.695334 8092 ] Result: local_storage_read_hit
+[2024-01-21T22:29:20.695353 8092 ] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/c/stats.lock
+[2024-01-21T22:29:20.697925 8092 ] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/c/stats.lock
+[2024-01-21T22:29:20.698008 13824] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.698053 13824] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.698070 13824] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.698084 13824] Compiler type: gcc
+[2024-01-21T22:29:20.698741 13824] Source file: module.resources.font.c
+[2024-01-21T22:29:20.698770 13824] Object file: module.resources.font.o
+[2024-01-21T22:29:20.699022 13824] Trying direct lookup
+[2024-01-21T22:29:20.699259 13824] Manifest key: 2eb65ac5l2hvbhl3m50vlg1lhnkost8eq
+[2024-01-21T22:29:20.699493 13824] Retrieved 2eb65ac5l2hvbhl3m50vlg1lhnkost8eq from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/e/b65ac5l2hvbhl3m50vlg1lhnkost8eqM)
+[2024-01-21T22:29:20.700070 8092 ] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/c/stats.lock
+[2024-01-21T22:29:20.700215 8092 ] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/c/stats.lock
+[2024-01-21T22:29:20.706612 4880 ] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.706723 4880 ] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.706735 4880 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) base_dir = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) compiler = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) compression = true
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) debug = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) disable = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) file_clone = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) hard_link = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) max_files = 0
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) namespace = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) path = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) read_only = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) recache = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) remote_only = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) reshare = false
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.706735 4880 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) stats = true
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) stats_log = 
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.706735 4880 ] Config: (default) umask = 
+[2024-01-21T22:29:20.706872 4880 ] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.resources.tone.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.resources.tone.c
+[2024-01-21T22:29:20.715989 4880 ] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.716043 4880 ] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.716061 4880 ] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.716074 4880 ] Compiler type: gcc
+[2024-01-21T22:29:20.716616 4880 ] Source file: module.resources.tone.c
+[2024-01-21T22:29:20.716641 4880 ] Object file: module.resources.tone.o
+[2024-01-21T22:29:20.716858 4880 ] Trying direct lookup
+[2024-01-21T22:29:20.717096 4880 ] Manifest key: 0d5f32moips0tm3bft6ulkefdds0dep26
+[2024-01-21T22:29:20.717354 4880 ] Retrieved 0d5f32moips0tm3bft6ulkefdds0dep26 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/d/5f32moips0tm3bft6ulkefdds0dep26M)
+[2024-01-21T22:29:20.733231 15352] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.733356 15352] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.733372 15352] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.733372 15352] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.733372 15352] Config: (default) base_dir = 
+[2024-01-21T22:29:20.733372 15352] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.733372 15352] Config: (default) compiler = 
+[2024-01-21T22:29:20.733372 15352] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.733372 15352] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.733372 15352] Config: (default) compression = true
+[2024-01-21T22:29:20.733372 15352] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.733372 15352] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.733372 15352] Config: (default) debug = false
+[2024-01-21T22:29:20.733372 15352] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.733372 15352] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.733372 15352] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.733372 15352] Config: (default) disable = false
+[2024-01-21T22:29:20.733372 15352] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.733372 15352] Config: (default) file_clone = false
+[2024-01-21T22:29:20.733372 15352] Config: (default) hard_link = false
+[2024-01-21T22:29:20.733372 15352] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.733372 15352] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.733372 15352] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.733372 15352] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.733372 15352] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.733372 15352] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.733372 15352] Config: (default) max_files = 0
+[2024-01-21T22:29:20.733372 15352] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.733372 15352] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.733372 15352] Config: (default) namespace = 
+[2024-01-21T22:29:20.733372 15352] Config: (default) path = 
+[2024-01-21T22:29:20.733372 15352] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.733372 15352] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.733372 15352] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.733372 15352] Config: (default) read_only = false
+[2024-01-21T22:29:20.733372 15352] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.733372 15352] Config: (default) recache = false
+[2024-01-21T22:29:20.733372 15352] Config: (default) remote_only = false
+[2024-01-21T22:29:20.733372 15352] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.733372 15352] Config: (default) reshare = false
+[2024-01-21T22:29:20.733372 15352] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.733372 15352] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.733372 15352] Config: (default) stats = true
+[2024-01-21T22:29:20.733372 15352] Config: (default) stats_log = 
+[2024-01-21T22:29:20.733372 15352] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.733372 15352] Config: (default) umask = 
+[2024-01-21T22:29:20.733497 15352] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.serial.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.serial.c
+[2024-01-21T22:29:20.734851 24460] Got result key from manifest
+[2024-01-21T22:29:20.734920 24460] Result key: 01d7afj657eho8iudif5n2v2fjcf7flou
+[2024-01-21T22:29:20.735137 24460] Retrieved 01d7afj657eho8iudif5n2v2fjcf7flou from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/1/d7afj657eho8iudif5n2v2fjcf7flouR)
+[2024-01-21T22:29:20.735903 24460] Reading embedded entry #0 .o (63847 bytes)
+[2024-01-21T22:29:20.735950 24460] Writing to module.__main__.o
+[2024-01-21T22:29:20.736439 24460] Succeeded getting cached result
+[2024-01-21T22:29:20.736519 24460] Result: direct_cache_hit
+[2024-01-21T22:29:20.736531 24460] Result: local_storage_hit
+[2024-01-21T22:29:20.736539 24460] Result: local_storage_read_hit
+[2024-01-21T22:29:20.736547 24460] Result: local_storage_read_hit
+[2024-01-21T22:29:20.736592 24460] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/c/stats.lock
+[2024-01-21T22:29:20.738566 24460] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/c/stats.lock
+[2024-01-21T22:29:20.740368 24460] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/c/stats.lock
+[2024-01-21T22:29:20.740484 24460] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/c/stats.lock
+[2024-01-21T22:29:20.740493 16740] Got result key from manifest
+[2024-01-21T22:29:20.740550 16740] Result key: 2615v4a23v2dr62ottp98pi1clqsfj66q
+[2024-01-21T22:29:20.740803 16740] Retrieved 2615v4a23v2dr62ottp98pi1clqsfj66q from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/6/15v4a23v2dr62ottp98pi1clqsfj66qR)
+[2024-01-21T22:29:20.741167 16740] Reading embedded entry #0 .o (5256 bytes)
+[2024-01-21T22:29:20.741197 16740] Writing to module.const_vars.o
+[2024-01-21T22:29:20.741730 16740] Succeeded getting cached result
+[2024-01-21T22:29:20.741792 16740] Result: direct_cache_hit
+[2024-01-21T22:29:20.741801 16740] Result: local_storage_hit
+[2024-01-21T22:29:20.741808 16740] Result: local_storage_read_hit
+[2024-01-21T22:29:20.741816 16740] Result: local_storage_read_hit
+[2024-01-21T22:29:20.741831 16740] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/stats.lock
+[2024-01-21T22:29:20.742170 4324 ] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.742259 4324 ] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.742273 4324 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) base_dir = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) compiler = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) compression = true
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) debug = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) disable = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) file_clone = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) hard_link = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) max_files = 0
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) namespace = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) path = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) read_only = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) recache = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) remote_only = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) reshare = false
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.742273 4324 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) stats = true
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) stats_log = 
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.742273 4324 ] Config: (default) umask = 
+[2024-01-21T22:29:20.742371 4324 ] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.serial.serialutil.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.serial.serialutil.c
+[2024-01-21T22:29:20.742642 15352] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.742674 15352] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.742692 15352] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.742703 15352] Compiler type: gcc
+[2024-01-21T22:29:20.742849 16740] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/stats.lock
+[2024-01-21T22:29:20.743327 15352] Source file: module.serial.c
+[2024-01-21T22:29:20.743358 15352] Object file: module.serial.o
+[2024-01-21T22:29:20.743603 15352] Trying direct lookup
+[2024-01-21T22:29:20.744058 15352] Manifest key: 58ad6ai211ae43oo6tijkhu3i60kkv2pa
+[2024-01-21T22:29:20.744367 15352] Retrieved 58ad6ai211ae43oo6tijkhu3i60kkv2pa from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/8/ad6ai211ae43oo6tijkhu3i60kkv2paM)
+[2024-01-21T22:29:20.744600 16740] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/stats.lock
+[2024-01-21T22:29:20.744710 16740] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/stats.lock
+[2024-01-21T22:29:20.752927 4324 ] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.752997 4324 ] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.753044 4324 ] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.753058 4324 ] Compiler type: gcc
+[2024-01-21T22:29:20.753641 4324 ] Source file: module.serial.serialutil.c
+[2024-01-21T22:29:20.753672 4324 ] Object file: module.serial.serialutil.o
+[2024-01-21T22:29:20.753918 4324 ] Trying direct lookup
+[2024-01-21T22:29:20.756625 4324 ] Manifest key: abdd1v68mc5j6n1ppgclcj936mtd07pkq
+[2024-01-21T22:29:20.756847 4324 ] Retrieved abdd1v68mc5j6n1ppgclcj936mtd07pkq from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/b/dd1v68mc5j6n1ppgclcj936mtd07pkqM)
+[2024-01-21T22:29:20.766806 12964] Got result key from manifest
+[2024-01-21T22:29:20.766874 12964] Result key: a700einhg13469rqosdif98esibefn1s4
+[2024-01-21T22:29:20.767159 12964] Retrieved a700einhg13469rqosdif98esibefn1s4 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/00einhg13469rqosdif98esibefn1s4R)
+[2024-01-21T22:29:20.767480 12964] Reading embedded entry #0 .o (7474 bytes)
+[2024-01-21T22:29:20.767500 12964] Writing to module.logger.o
+[2024-01-21T22:29:20.767918 12964] Succeeded getting cached result
+[2024-01-21T22:29:20.767994 12964] Result: direct_cache_hit
+[2024-01-21T22:29:20.768005 12964] Result: local_storage_hit
+[2024-01-21T22:29:20.768014 12964] Result: local_storage_read_hit
+[2024-01-21T22:29:20.768022 12964] Result: local_storage_read_hit
+[2024-01-21T22:29:20.768037 12964] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/stats.lock
+[2024-01-21T22:29:20.769019 12964] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/stats.lock
+[2024-01-21T22:29:20.771373 12964] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/stats.lock
+[2024-01-21T22:29:20.771492 12964] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/stats.lock
+[2024-01-21T22:29:20.777464 15212] Got result key from manifest
+[2024-01-21T22:29:20.777531 15212] Result key: 870fl6p0rsol5jno9o1bmuuprp9n8u0ba
+[2024-01-21T22:29:20.777798 15212] Retrieved 870fl6p0rsol5jno9o1bmuuprp9n8u0ba from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/7/0fl6p0rsol5jno9o1bmuuprp9n8u0baR)
+[2024-01-21T22:29:20.778143 15212] Reading embedded entry #0 .o (4905 bytes)
+[2024-01-21T22:29:20.778175 15212] Writing to module.resources.o
+[2024-01-21T22:29:20.778336 2588 ] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.778408 2588 ] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.778419 2588 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) base_dir = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) compiler = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) compression = true
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) debug = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) disable = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) file_clone = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) hard_link = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) max_files = 0
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) namespace = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) path = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) read_only = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) recache = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) remote_only = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) reshare = false
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.778419 2588 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) stats = true
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) stats_log = 
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.778419 2588 ] Config: (default) umask = 
+[2024-01-21T22:29:20.778529 2588 ] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.serial.serialwin32.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.serial.serialwin32.c
+[2024-01-21T22:29:20.778595 15212] Succeeded getting cached result
+[2024-01-21T22:29:20.778641 15212] Result: direct_cache_hit
+[2024-01-21T22:29:20.778651 15212] Result: local_storage_hit
+[2024-01-21T22:29:20.778660 15212] Result: local_storage_read_hit
+[2024-01-21T22:29:20.778669 15212] Result: local_storage_read_hit
+[2024-01-21T22:29:20.778685 15212] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-21T22:29:20.779709 15212] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-21T22:29:20.781273 15212] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-21T22:29:20.781402 15212] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-21T22:29:20.787205 19856] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.787304 19856] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.787317 19856] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.787317 19856] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.787317 19856] Config: (default) base_dir = 
+[2024-01-21T22:29:20.787317 19856] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.787317 19856] Config: (default) compiler = 
+[2024-01-21T22:29:20.787317 19856] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.787317 19856] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.787317 19856] Config: (default) compression = true
+[2024-01-21T22:29:20.787317 19856] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.787317 19856] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.787317 19856] Config: (default) debug = false
+[2024-01-21T22:29:20.787317 19856] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.787317 19856] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.787317 19856] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.787317 19856] Config: (default) disable = false
+[2024-01-21T22:29:20.787317 19856] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.787317 19856] Config: (default) file_clone = false
+[2024-01-21T22:29:20.787317 19856] Config: (default) hard_link = false
+[2024-01-21T22:29:20.787317 19856] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.787317 19856] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.787317 19856] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.787317 19856] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.787317 19856] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.787317 19856] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.787317 19856] Config: (default) max_files = 0
+[2024-01-21T22:29:20.787317 19856] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.787317 19856] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.787317 19856] Config: (default) namespace = 
+[2024-01-21T22:29:20.787317 19856] Config: (default) path = 
+[2024-01-21T22:29:20.787317 19856] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.787317 19856] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.787317 19856] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.787317 19856] Config: (default) read_only = false
+[2024-01-21T22:29:20.787317 19856] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.787317 19856] Config: (default) recache = false
+[2024-01-21T22:29:20.787317 19856] Config: (default) remote_only = false
+[2024-01-21T22:29:20.787317 19856] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.787317 19856] Config: (default) reshare = false
+[2024-01-21T22:29:20.787317 19856] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.787317 19856] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.787317 19856] Config: (default) stats = true
+[2024-01-21T22:29:20.787317 19856] Config: (default) stats_log = 
+[2024-01-21T22:29:20.787317 19856] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.787317 19856] Config: (default) umask = 
+[2024-01-21T22:29:20.787457 19856] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.serial.tools.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.serial.tools.c
+[2024-01-21T22:29:20.787749 2588 ] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.787793 2588 ] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.787786 13824] Got result key from manifest
+[2024-01-21T22:29:20.787812 2588 ] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.787895 2588 ] Compiler type: gcc
+vs2dd8k5ll5a37kc4dvnol1ns
+[2024-01-21T22:29:20.788157 13824] Retrieved 7899l418vs2dd8k5ll5a37kc4dvnol1ns from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/99l418vs2dd8k5ll5a37kc4dvnol1nsR)
+[2024-01-21T22:29:20.788444 2588 ] Source file: module.serial.serialwin32.c
+[2024-01-21T22:29:20.788466 13824] Reading embedded entry #0 .o (5281 bytes)
+[2024-01-21T22:29:20.788485 13824] Writing to module.resources.font.o
+[2024-01-21T22:29:20.788700 2588 ] Trying direct lookup
+[2024-01-21T22:29:20.788924 13824] Succeeded getting cached result
+[2024-01-21T22:29:20.788984 13824] Result: direct_cache_hit
+[2024-01-21T22:29:20.788997 13824] Result: local_storage_hit
+[2024-01-21T22:29:20.789006 13824] Result: local_storage_read_hit
+[2024-01-21T22:29:20.789014 13824] Result: local_storage_read_hit
+[2024-01-21T22:29:20.789035 13824] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/stats.lock
+[2024-01-21T22:29:20.790334 13824] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/stats.lock
+[2024-01-21T22:29:20.791217 2588 ] Manifest key: 361b0ua1a8dl13dcborp3h3mbiaj96mei
+[2024-01-21T22:29:20.791503 2588 ] Retrieved 361b0ua1a8dl13dcborp3h3mbiaj96mei from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/6/1b0ua1a8dl13dcborp3h3mbiaj96meiM)
+[2024-01-21T22:29:20.791983 13824] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/stats.lock
+[2024-01-21T22:29:20.792124 13824] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/stats.lock
+[2024-01-21T22:29:20.795671 19856] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.795721 19856] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.795738 19856] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.795752 19856] Compiler type: gcc
+[2024-01-21T22:29:20.796342 19856] Source file: module.serial.tools.c
+[2024-01-21T22:29:20.796371 19856] Object file: module.serial.tools.o
+[2024-01-21T22:29:20.796600 19856] Trying direct lookup
+[2024-01-21T22:29:20.796878 19856] Manifest key: 457bf104f64qooqp26ishi4olf09tl5pg
+[2024-01-21T22:29:20.797165 19856] Retrieved 457bf104f64qooqp26ishi4olf09tl5pg from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/5/7bf104f64qooqp26ishi4olf09tl5pgM)
+[2024-01-21T22:29:20.802506 12960] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.802592 12960] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.802606 12960] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.802606 12960] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.802606 12960] Config: (default) base_dir = 
+[2024-01-21T22:29:20.802606 12960] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.802606 12960] Config: (default) compiler = 
+[2024-01-21T22:29:20.802606 12960] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.802606 12960] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.802606 12960] Config: (default) compression = true
+[2024-01-21T22:29:20.802606 12960] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.802606 12960] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.802606 12960] Config: (default) debug = false
+[2024-01-21T22:29:20.802606 12960] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.802606 12960] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.802606 12960] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.802606 12960] Config: (default) disable = false
+[2024-01-21T22:29:20.802606 12960] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.802606 12960] Config: (default) file_clone = false
+[2024-01-21T22:29:20.802606 12960] Config: (default) hard_link = false
+[2024-01-21T22:29:20.802606 12960] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.802606 12960] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.802606 12960] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.802606 12960] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.802606 12960] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.802606 12960] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.802606 12960] Config: (default) max_files = 0
+[2024-01-21T22:29:20.802606 12960] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.802606 12960] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.802606 12960] Config: (default) namespace = 
+[2024-01-21T22:29:20.802606 12960] Config: (default) path = 
+[2024-01-21T22:29:20.802606 12960] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.802606 12960] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.802606 12960] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.802606 12960] Config: (default) read_only = false
+[2024-01-21T22:29:20.802606 12960] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.802606 12960] Config: (default) recache = false
+[2024-01-21T22:29:20.802606 12960] Config: (default) remote_only = false
+[2024-01-21T22:29:20.802606 12960] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.802606 12960] Config: (default) reshare = false
+[2024-01-21T22:29:20.802606 12960] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.802606 12960] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.802606 12960] Config: (default) stats = true
+[2024-01-21T22:29:20.802606 12960] Config: (default) stats_log = 
+[2024-01-21T22:29:20.802606 12960] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.802606 12960] Config: (default) umask = 
+[2024-01-21T22:29:20.802710 12960] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.serial.tools.list_ports.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.serial.tools.list_ports.c
+[2024-01-21T22:29:20.807678 4880 ] Got result key from manifest
+[2024-01-21T22:29:20.807724 4880 ] Result key: 911c9htolnpmfj5t50gbvg7ljpkq5lsmm
+[2024-01-21T22:29:20.807926 4880 ] Retrieved 911c9htolnpmfj5t50gbvg7ljpkq5lsmm from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/1/1c9htolnpmfj5t50gbvg7ljpkq5lsmmR)
+[2024-01-21T22:29:20.808182 4880 ] Reading embedded entry #0 .o (5209 bytes)
+[2024-01-21T22:29:20.808202 4880 ] Writing to module.resources.tone.o
+[2024-01-21T22:29:20.808558 4880 ] Succeeded getting cached result
+[2024-01-21T22:29:20.808590 4880 ] Result: direct_cache_hit
+[2024-01-21T22:29:20.808597 4880 ] Result: local_storage_hit
+[2024-01-21T22:29:20.808604 4880 ] Result: local_storage_read_hit
+[2024-01-21T22:29:20.808610 4880 ] Result: local_storage_read_hit
+[2024-01-21T22:29:20.808621 4880 ] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2024-01-21T22:29:20.809572 4880 ] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2024-01-21T22:29:20.810841 4880 ] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2024-01-21T22:29:20.810893 12960] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.810914 12960] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.810922 12960] Compiler type: gcc
+[2024-01-21T22:29:20.810998 4880 ] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2024-01-21T22:29:20.811424 12960] Source file: module.serial.tools.list_ports.c
+[2024-01-21T22:29:20.811456 12960] Object file: module.serial.tools.list_ports.o
+[2024-01-21T22:29:20.811685 12960] Trying direct lookup
+[2024-01-21T22:29:20.812219 12960] Manifest key: 9a8423j6dm4ju1rt66j56jb95s90hji1q
+[2024-01-21T22:29:20.812437 12960] Retrieved 9a8423j6dm4ju1rt66j56jb95s90hji1q from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/a/8423j6dm4ju1rt66j56jb95s90hji1qM)
+[2024-01-21T22:29:20.829617 18064] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.829919 18064] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.829935 18064] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.829935 18064] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.829935 18064] Config: (default) base_dir = 
+[2024-01-21T22:29:20.829935 18064] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.829935 18064] Config: (default) compiler = 
+[2024-01-21T22:29:20.829935 18064] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.829935 18064] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.829935 18064] Config: (default) compression = true
+[2024-01-21T22:29:20.829935 18064] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.829935 18064] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.829935 18064] Config: (default) debug = false
+[2024-01-21T22:29:20.829935 18064] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.829935 18064] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.829935 18064] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.829935 18064] Config: (default) disable = false
+[2024-01-21T22:29:20.829935 18064] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.829935 18064] Config: (default) file_clone = false
+[2024-01-21T22:29:20.829935 18064] Config: (default) hard_link = false
+[2024-01-21T22:29:20.829935 18064] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.829935 18064] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.829935 18064] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.829935 18064] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.829935 18064] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.829935 18064] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.829935 18064] Config: (default) max_files = 0
+[2024-01-21T22:29:20.829935 18064] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.829935 18064] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.829935 18064] Config: (default) namespace = 
+[2024-01-21T22:29:20.829935 18064] Config: (default) path = 
+[2024-01-21T22:29:20.829935 18064] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.829935 18064] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.829935 18064] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.829935 18064] Config: (default) read_only = false
+[2024-01-21T22:29:20.829935 18064] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.829935 18064] Config: (default) recache = false
+[2024-01-21T22:29:20.829935 18064] Config: (default) remote_only = false
+[2024-01-21T22:29:20.829935 18064] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.829935 18064] Config: (default) reshare = false
+[2024-01-21T22:29:20.829935 18064] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.829935 18064] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.829935 18064] Config: (default) stats = true
+[2024-01-21T22:29:20.829935 18064] Config: (default) stats_log = 
+[2024-01-21T22:29:20.829935 18064] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.829935 18064] Config: (default) umask = 
+[2024-01-21T22:29:20.830072 18064] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.serial.tools.list_ports_common.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.serial.tools.list_ports_common.c
+[2024-01-21T22:29:20.834354 15352] Got result key from manifest
+[2024-01-21T22:29:20.834430 15352] Result key: 7365d7itgtccq49ae287covui3b23lb2e
+[2024-01-21T22:29:20.834745 15352] Retrieved 7365d7itgtccq49ae287covui3b23lb2e from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/3/65d7itgtccq49ae287covui3b23lb2eR)
+[2024-01-21T22:29:20.835181 15352] Reading embedded entry #0 .o (24020 bytes)
+[2024-01-21T22:29:20.835206 15352] Writing to module.serial.o
+[2024-01-21T22:29:20.835788 15352] Succeeded getting cached result
+[2024-01-21T22:29:20.835843 15352] Result: direct_cache_hit
+[2024-01-21T22:29:20.835855 15352] Result: local_storage_hit
+[2024-01-21T22:29:20.835863 15352] Result: local_storage_read_hit
+[2024-01-21T22:29:20.835871 15352] Result: local_storage_read_hit
+[2024-01-21T22:29:20.835886 15352] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/stats.lock
+[2024-01-21T22:29:20.837806 15352] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/stats.lock
+[2024-01-21T22:29:20.839736 15352] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/stats.lock
+[2024-01-21T22:29:20.839917 15352] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/stats.lock
+[2024-01-21T22:29:20.840301 18064] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.840373 18064] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.840414 18064] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.840434 18064] Compiler type: gcc
+[2024-01-21T22:29:20.841297 18064] Source file: module.serial.tools.list_ports_common.c
+[2024-01-21T22:29:20.841331 18064] Object file: module.serial.tools.list_ports_common.o
+[2024-01-21T22:29:20.841645 18064] Trying direct lookup
+[2024-01-21T22:29:20.842511 18064] Manifest key: 4b6f3e75tbfcil4iik3sklslpsqfqo88g
+[2024-01-21T22:29:20.842869 18064] Retrieved 4b6f3e75tbfcil4iik3sklslpsqfqo88g from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/b/6f3e75tbfcil4iik3sklslpsqfqo88gM)
+[2024-01-21T22:29:20.846069 4324 ] Got result key from manifest
+[2024-01-21T22:29:20.846144 4324 ] Result key: b7b454o1s6nhi7bhkn5oe4rq32d2q57ee
+[2024-01-21T22:29:20.846492 4324 ] Retrieved b7b454o1s6nhi7bhkn5oe4rq32d2q57ee from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/7/b454o1s6nhi7bhkn5oe4rq32d2q57eeR)
+[2024-01-21T22:29:20.847604 4324 ] Reading embedded entry #0 .o (211349 bytes)
+[2024-01-21T22:29:20.847659 4324 ] Writing to module.serial.serialutil.o
+[2024-01-21T22:29:20.848336 4324 ] Succeeded getting cached result
+[2024-01-21T22:29:20.848436 4324 ] Result: direct_cache_hit
+[2024-01-21T22:29:20.848448 4324 ] Result: local_storage_hit
+[2024-01-21T22:29:20.848457 4324 ] Result: local_storage_read_hit
+[2024-01-21T22:29:20.848466 4324 ] Result: local_storage_read_hit
+[2024-01-21T22:29:20.848481 4324 ] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/4/stats.lock
+[2024-01-21T22:29:20.850265 4324 ] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/4/stats.lock
+[2024-01-21T22:29:20.851692 4324 ] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/4/stats.lock
+[2024-01-21T22:29:20.851780 4324 ] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/4/stats.lock
+[2024-01-21T22:29:20.862448 21232] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.862509 21232] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.862517 21232] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.862517 21232] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.862517 21232] Config: (default) base_dir = 
+[2024-01-21T22:29:20.862517 21232] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.862517 21232] Config: (default) compiler = 
+[2024-01-21T22:29:20.862517 21232] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.862517 21232] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.862517 21232] Config: (default) compression = true
+[2024-01-21T22:29:20.862517 21232] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.862517 21232] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.862517 21232] Config: (default) debug = false
+[2024-01-21T22:29:20.862517 21232] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.862517 21232] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.862517 21232] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.862517 21232] Config: (default) disable = false
+[2024-01-21T22:29:20.862517 21232] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.862517 21232] Config: (default) file_clone = false
+[2024-01-21T22:29:20.862517 21232] Config: (default) hard_link = false
+[2024-01-21T22:29:20.862517 21232] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.862517 21232] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.862517 21232] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.862517 21232] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.862517 21232] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.862517 21232] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.862517 21232] Config: (default) max_files = 0
+[2024-01-21T22:29:20.862517 21232] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.862517 21232] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.862517 21232] Config: (default) namespace = 
+[2024-01-21T22:29:20.862517 21232] Config: (default) path = 
+[2024-01-21T22:29:20.862517 21232] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.862517 21232] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.862517 21232] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.862517 21232] Config: (default) read_only = false
+[2024-01-21T22:29:20.862517 21232] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.862517 21232] Config: (default) recache = false
+[2024-01-21T22:29:20.862517 21232] Config: (default) remote_only = false
+[2024-01-21T22:29:20.862517 21232] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.862517 21232] Config: (default) reshare = false
+[2024-01-21T22:29:20.862517 21232] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.862517 21232] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.862517 21232] Config: (default) stats = true
+[2024-01-21T22:29:20.862517 21232] Config: (default) stats_log = 
+[2024-01-21T22:29:20.862517 21232] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.862517 21232] Config: (default) umask = 
+[2024-01-21T22:29:20.862591 21232] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.serial.tools.list_ports_windows.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.serial.tools.list_ports_windows.c
+[2024-01-21T22:29:20.870055 21232] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.870100 21232] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.870137 21232] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.870151 21232] Compiler type: gcc
+[2024-01-21T22:29:20.870126 12100] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.870193 12100] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.870202 12100] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.870202 12100] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.870202 12100] Config: (default) base_dir = 
+[2024-01-21T22:29:20.870202 12100] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.870202 12100] Config: (default) compiler = 
+[2024-01-21T22:29:20.870202 12100] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.870202 12100] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.870202 12100] Config: (default) compression = true
+[2024-01-21T22:29:20.870202 12100] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.870202 12100] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.870202 12100] Config: (default) debug = false
+[2024-01-21T22:29:20.870202 12100] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.870202 12100] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.870202 12100] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.870202 12100] Config: (default) disable = false
+[2024-01-21T22:29:20.870202 12100] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.870202 12100] Config: (default) file_clone = false
+[2024-01-21T22:29:20.870202 12100] Config: (default) hard_link = false
+[2024-01-21T22:29:20.870202 12100] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.870202 12100] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.870202 12100] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.870202 12100] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.870202 12100] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.870202 12100] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.870202 12100] Config: (default) max_files = 0
+[2024-01-21T22:29:20.870202 12100] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.870202 12100] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.870202 12100] Config: (default) namespace = 
+[2024-01-21T22:29:20.870202 12100] Config: (default) path = 
+[2024-01-21T22:29:20.870202 12100] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.870202 12100] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.870202 12100] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.870202 12100] Config: (default) read_only = false
+[2024-01-21T22:29:20.870202 12100] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.870202 12100] Config: (default) recache = false
+[2024-01-21T22:29:20.870202 12100] Config: (default) remote_only = false
+[2024-01-21T22:29:20.870202 12100] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.870202 12100] Config: (default) reshare = false
+[2024-01-21T22:29:20.870202 12100] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.870202 12100] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.870202 12100] Config: (default) stats = true
+[2024-01-21T22:29:20.870202 12100] Config: (default) stats_log = 
+[2024-01-21T22:29:20.870202 12100] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.870202 12100] Config: (default) umask = 
+[2024-01-21T22:29:20.870307 12100] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.serial.win32.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.serial.win32.c
+[2024-01-21T22:29:20.870666 21232] Source file: module.serial.tools.list_ports_windows.c
+[2024-01-21T22:29:20.870693 21232] Object file: module.serial.tools.list_ports_windows.o
+[2024-01-21T22:29:20.870964 21232] Trying direct lookup
+[2024-01-21T22:29:20.872930 21232] Manifest key: 0b93b775srfui02ni6u4v52084digifue
+[2024-01-21T22:29:20.873233 21232] Retrieved 0b93b775srfui02ni6u4v52084digifue from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/b/93b775srfui02ni6u4v52084digifueM)
+[2024-01-21T22:29:20.879227 12100] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.879276 12100] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.879291 12100] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.879305 12100] Compiler type: gcc
+[2024-01-21T22:29:20.879791 2588 ] Got result key from manifest
+[2024-01-21T22:29:20.879892 2588 ] Result key: c01bou4g4bt6728i7pds1l5k0cmvo02k8
+[2024-01-21T22:29:20.879907 12100] Object file: module.serial.win32.o
+[2024-01-21T22:29:20.880176 12100] Trying direct lookup
+[2024-01-21T22:29:20.880222 2588 ] Retrieved c01bou4g4bt6728i7pds1l5k0cmvo02k8 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/0/1bou4g4bt6728i7pds1l5k0cmvo02k8R)
+[2024-01-21T22:29:20.881216 2588 ] Reading embedded entry #0 .o (171220 bytes)
+[2024-01-21T22:29:20.881265 2588 ] Writing to module.serial.serialwin32.o
+[2024-01-21T22:29:20.881759 2588 ] Succeeded getting cached result
+[2024-01-21T22:29:20.881859 2588 ] Result: direct_cache_hit
+[2024-01-21T22:29:20.881873 2588 ] Result: local_storage_hit
+[2024-01-21T22:29:20.881881 2588 ] Result: local_storage_read_hit
+[2024-01-21T22:29:20.881889 2588 ] Result: local_storage_read_hit
+[2024-01-21T22:29:20.881905 2588 ] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/c/stats.lock
+[2024-01-21T22:29:20.881962 12100] Manifest key: d5eblps8ghpvpl6486bm13qe6k4543hem
+[2024-01-21T22:29:20.882352 12100] Retrieved d5eblps8ghpvpl6486bm13qe6k4543hem from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/5/eblps8ghpvpl6486bm13qe6k4543hemM)
+[2024-01-21T22:29:20.882844 2588 ] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/c/stats.lock
+[2024-01-21T22:29:20.884290 2588 ] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/c/stats.lock
+[2024-01-21T22:29:20.884396 2588 ] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/c/stats.lock
+[2024-01-21T22:29:20.887043 19856] Got result key from manifest
+[2024-01-21T22:29:20.887117 19856] Result key: 73f727hd7512896egvnbrsubtscdak714
+[2024-01-21T22:29:20.887446 19856] Retrieved 73f727hd7512896egvnbrsubtscdak714 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/3/f727hd7512896egvnbrsubtscdak714R)
+[2024-01-21T22:29:20.887790 19856] Reading embedded entry #0 .o (6708 bytes)
+[2024-01-21T22:29:20.887812 19856] Writing to module.serial.tools.o
+[2024-01-21T22:29:20.888264 19856] Succeeded getting cached result
+[2024-01-21T22:29:20.888344 19856] Result: direct_cache_hit
+[2024-01-21T22:29:20.888363 19856] Result: local_storage_hit
+[2024-01-21T22:29:20.888374 19856] Result: local_storage_read_hit
+[2024-01-21T22:29:20.888382 19856] Result: local_storage_read_hit
+[2024-01-21T22:29:20.888397 19856] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2024-01-21T22:29:20.889414 19856] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2024-01-21T22:29:20.889681 19512] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.889734 19512] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.889742 19512] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.889742 19512] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.889742 19512] Config: (default) base_dir = 
+[2024-01-21T22:29:20.889742 19512] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.889742 19512] Config: (default) compiler = 
+[2024-01-21T22:29:20.889742 19512] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.889742 19512] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.889742 19512] Config: (default) compression = true
+[2024-01-21T22:29:20.889742 19512] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.889742 19512] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.889742 19512] Config: (default) debug = false
+[2024-01-21T22:29:20.889742 19512] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.889742 19512] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.889742 19512] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.889742 19512] Config: (default) disable = false
+[2024-01-21T22:29:20.889742 19512] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.889742 19512] Config: (default) file_clone = false
+[2024-01-21T22:29:20.889742 19512] Config: (default) hard_link = false
+[2024-01-21T22:29:20.889742 19512] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.889742 19512] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.889742 19512] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.889742 19512] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.889742 19512] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.889742 19512] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.889742 19512] Config: (default) max_files = 0
+[2024-01-21T22:29:20.889742 19512] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.889742 19512] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.889742 19512] Config: (default) namespace = 
+[2024-01-21T22:29:20.889742 19512] Config: (default) path = 
+[2024-01-21T22:29:20.889742 19512] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.889742 19512] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.889742 19512] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.889742 19512] Config: (default) read_only = false
+[2024-01-21T22:29:20.889742 19512] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.889742 19512] Config: (default) recache = false
+[2024-01-21T22:29:20.889742 19512] Config: (default) remote_only = false
+[2024-01-21T22:29:20.889742 19512] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.889742 19512] Config: (default) reshare = false
+[2024-01-21T22:29:20.889742 19512] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.889742 19512] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.889742 19512] Config: (default) stats = true
+[2024-01-21T22:29:20.889742 19512] Config: (default) stats_log = 
+[2024-01-21T22:29:20.889742 19512] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.889742 19512] Config: (default) umask = 
+[2024-01-21T22:29:20.889845 19512] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.serial_utils.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.serial_utils.c
+[2024-01-21T22:29:20.890916 19856] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2024-01-21T22:29:20.891037 19856] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2024-01-21T22:29:20.898913 19512] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.898966 19512] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.898986 19512] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.899003 19512] Compiler type: gcc
+[2024-01-21T22:29:20.899596 19512] Source file: module.serial_utils.c
+[2024-01-21T22:29:20.899627 19512] Object file: module.serial_utils.o
+[2024-01-21T22:29:20.899875 19512] Trying direct lookup
+[2024-01-21T22:29:20.900918 19512] Manifest key: 2d288i39ofaco6b9hbth1hpat0q1ad47a
+[2024-01-21T22:29:20.901163 19512] Retrieved 2d288i39ofaco6b9hbth1hpat0q1ad47a from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/d/288i39ofaco6b9hbth1hpat0q1ad47aM)
+[2024-01-21T22:29:20.901237 12960] Got result key from manifest
+[2024-01-21T22:29:20.901376 12960] Result key: 8064vtji6cirm13nqklrdj11j8qhshaku
+[2024-01-21T22:29:20.901650 12960] Retrieved 8064vtji6cirm13nqklrdj11j8qhshaku from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/64vtji6cirm13nqklrdj11j8qhshakuR)
+[2024-01-21T22:29:20.902052 12960] Reading embedded entry #0 .o (35307 bytes)
+[2024-01-21T22:29:20.902079 12960] Writing to module.serial.tools.list_ports.o
+[2024-01-21T22:29:20.902573 12960] Succeeded getting cached result
+[2024-01-21T22:29:20.902626 12960] Result: direct_cache_hit
+[2024-01-21T22:29:20.902638 12960] Result: local_storage_hit
+[2024-01-21T22:29:20.902647 12960] Result: local_storage_read_hit
+[2024-01-21T22:29:20.902655 12960] Result: local_storage_read_hit
+[2024-01-21T22:29:20.902670 12960] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/0/stats.lock
+[2024-01-21T22:29:20.903631 12960] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/0/stats.lock
+[2024-01-21T22:29:20.905330 12960] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/0/stats.lock
+[2024-01-21T22:29:20.905509 12960] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/0/stats.lock
+[2024-01-21T22:29:20.913377 3096 ] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.913443 3096 ] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:20.913454 3096 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) base_dir = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) compiler = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) compression = true
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) debug = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) disable = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) file_clone = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) hard_link = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) max_files = 0
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) namespace = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) path = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) read_only = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) recache = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) remote_only = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) reshare = false
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.913454 3096 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) stats = true
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) stats_log = 
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.913454 3096 ] Config: (default) umask = 
+[2024-01-21T22:29:20.913555 3096 ] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o module.tkinter-preLoad.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src module.tkinter-preLoad.c
+[2024-01-21T22:29:20.920447 3096 ] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.920498 3096 ] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.920516 3096 ] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.920528 3096 ] Compiler type: gcc
+[2024-01-21T22:29:20.921224 3096 ] Source file: module.tkinter-preLoad.c
+[2024-01-21T22:29:20.921264 3096 ] Object file: module.tkinter-preLoad.o
+[2024-01-21T22:29:20.921513 3096 ] Trying direct lookup
+[2024-01-21T22:29:20.921774 3096 ] Manifest key: 9d83krl7dtfsnl1aarb0eg2ivp7ihnkh2
+[2024-01-21T22:29:20.922005 3096 ] Retrieved 9d83krl7dtfsnl1aarb0eg2ivp7ihnkh2 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/d/83krl7dtfsnl1aarb0eg2ivp7ihnkh2M)
+[2024-01-21T22:29:20.927535 18064] Got result key from manifest
+[2024-01-21T22:29:20.927582 18064] Result key: 4051oh7hac80o2a6n6hr3s4eo1g3f3ifm
+[2024-01-21T22:29:20.927726 16916] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:20.927797 18064] Retrieved 4051oh7hac80o2a6n6hr3s4eo1g3f3ifm from local storage (C:\Users\Yang\AppData\Lo[2024-01-21T22:29:20.927810 16916] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:20.927810 16916] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:20.927810 16916] Config: (default) base_dir = 
+[2024-01-21T22:29:20.927810 16916] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:20.927810 16916] Config: (default) compiler = 
+[2024-01-21T22:29:20.927810 16916] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:20.927810 16916] Config: (default) compiler_type = auto
+[2024-01-21T22:29:20.927810 16916] Config: (default) compression = true
+[2024-01-21T22:29:20.927810 16916] Config: (default) compression_level = 0
+[2024-01-21T22:29:20.927810 16916] Config: (default) cpp_extension = 
+[2024-01-21T22:29:20.927810 16916] Config: (default) debug = false
+[2024-01-21T22:29:20.927810 16916] Config: (default) debug_dir = 
+[2024-01-21T22:29:20.927810 16916] Config: (default) depend_mode = false
+[2024-01-21T22:29:20.927810 16916] Config: (default) direct_mode = true
+[2024-01-21T22:29:20.927810 16916] Config: (default) disable = false
+[2024-01-21T22:29:20.927810 16916] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:20.927810 16916] Config: (default) file_clone = false
+[2024-01-21T22:29:20.927810 16916] Config: (default) hard_link = false
+[2024-01-21T22:29:20.927810 16916] Config: (default) hash_dir = true
+[2024-01-21T22:29:20.927810 16916] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:20.927810 16916] Config: (default) ignore_options = 
+[2024-01-21T22:29:20.927810 16916] Config: (default) inode_cache = true
+[2024-01-21T22:29:20.927810 16916] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:20.927810 16916] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:20.927810 16916] Config: (default) max_files = 0
+[2024-01-21T22:29:20.927810 16916] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:20.927810 16916] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:20.927810 16916] Config: (default) namespace = 
+[2024-01-21T22:29:20.927810 16916] Config: (default) path = 
+[2024-01-21T22:29:20.927810 16916] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:20.927810 16916] Config: (default) prefix_command = 
+[2024-01-21T22:29:20.927810 16916] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:20.927810 16916] Config: (default) read_only = false
+[2024-01-21T22:29:20.927810 16916] Config: (default) read_only_direct = false
+[2024-01-21T22:29:20.927810 16916] Config: (default) recache = false
+[2024-01-21T22:29:20.927810 16916] Config: (default) remote_only = false
+[2024-01-21T22:29:20.927810 16916] Config: (default) remote_storage = 
+[2024-01-21T22:29:20.927810 16916] Config: (default) reshare = false
+[2024-01-21T22:29:20.927810 16916] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:20.927810 16916] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:20.927810 16916] Config: (default) stats = true
+[2024-01-21T22:29:20.927810 16916] Config: (default) stats_log = 
+[2024-01-21T22:29:20.927810 16916] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:20.927810 16916] Config: (default) umask = 
+[2024-01-21T22:29:20.927914 16916] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o static_src\MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src static_src\MainProgram.c
+[2024-01-21T22:29:20.928238 18064] Reading embedded entry #0 .o (47696 bytes)
+[2024-01-21T22:29:20.928267 18064] Writing to module.serial.tools.list_ports_common.o
+[2024-01-21T22:29:20.928761 18064] Succeeded getting cached result
+[2024-01-21T22:29:20.928816 18064] Result: direct_cache_hit
+[2024-01-21T22:29:20.928829 18064] Result: local_storage_hit
+[2024-01-21T22:29:20.928838 18064] Result: local_storage_read_hit
+[2024-01-21T22:29:20.928846 18064] Result: local_storage_read_hit
+[2024-01-21T22:29:20.928863 18064] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2024-01-21T22:29:20.929712 18064] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2024-01-21T22:29:20.931113 18064] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2024-01-21T22:29:20.931226 18064] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2024-01-21T22:29:20.936034 16916] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:20.936075 16916] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:20.936090 16916] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:20.936100 16916] Compiler type: gcc
+[2024-01-21T22:29:20.936689 16916] Source file: static_src\MainProgram.c
+[2024-01-21T22:29:20.936722 16916] Object file: static_src\MainProgram.o
+[2024-01-21T22:29:20.936972 16916] Trying direct lookup
+[2024-01-21T22:29:20.937341 16916] Manifest key: 1618p5kp6e3r30719ipjhs5safulbufmc
+[2024-01-21T22:29:20.937640 16916] Retrieved 1618p5kp6e3r30719ipjhs5safulbufmc from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/6/18p5kp6e3r30719ipjhs5safulbufmcM)
+[2024-01-21T22:29:20.956545 21232] Got result key from manifest
+[2024-01-21T22:29:20.956606 21232] Result key: 68f52k65krdn7k683qgn60fniuaoosthu
+[2024-01-21T22:29:20.956923 21232] Retrieved 68f52k65krdn7k683qgn60fniuaoosthu from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/f52k65krdn7k683qgn60fniuaoosthuR)
+[2024-01-21T22:29:20.957537 21232] Reading embedded entry #0 .o (128434 bytes)
+[2024-01-21T22:29:20.957569 21232] Writing to module.serial.tools.list_ports_windows.o
+[2024-01-21T22:29:20.958065 21232] Succeeded getting cached result
+[2024-01-21T22:29:20.958108 21232] Result: direct_cache_hit
+[2024-01-21T22:29:20.958115 21232] Result: local_storage_hit
+[2024-01-21T22:29:20.958121 21232] Result: local_storage_read_hit
+[2024-01-21T22:29:20.958127 21232] Result: local_storage_read_hit
+[2024-01-21T22:29:20.958139 21232] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/0/stats.lock
+[2024-01-21T22:29:20.958980 21232] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/0/stats.lock
+[2024-01-21T22:29:20.960167 21232] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/0/stats.lock
+[2024-01-21T22:29:20.960299 21232] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/0/stats.lock
+[2024-01-21T22:29:20.962628 12100] Got result key from manifest
+[2024-01-21T22:29:20.962697 12100] Result key: 5c69aeimvql10680pscub5hu050pha0ks
+[2024-01-21T22:29:20.962987 12100] Retrieved 5c69aeimvql10680pscub5hu050pha0ks from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/c/69aeimvql10680pscub5hu050pha0ksR)
+[2024-01-21T22:29:20.963640 12100] Reading embedded entry #0 .o (94651 bytes)
+[2024-01-21T22:29:20.963673 12100] Writing to module.serial.win32.o
+[2024-01-21T22:29:20.964162 12100] Succeeded getting cached result
+[2024-01-21T22:29:20.964228 12100] Result: direct_cache_hit
+[2024-01-21T22:29:20.964238 12100] Result: local_storage_hit
+[2024-01-21T22:29:20.964246 12100] Result: local_storage_read_hit
+[2024-01-21T22:29:20.964254 12100] Result: local_storage_read_hit
+[2024-01-21T22:29:20.964267 12100] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/4/stats.lock
+[2024-01-21T22:29:20.965657 12100] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/4/stats.lock
+[2024-01-21T22:29:20.967333 12100] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/4/stats.lock
+[2024-01-21T22:29:20.967458 12100] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/4/stats.lock
+[2024-01-21T22:29:20.979840 19512] Got result key from manifest
+[2024-01-21T22:29:20.979922 19512] Result key: c7c3drv6pai36o3orqit4e96iikp882h2
+[2024-01-21T22:29:20.980200 19512] Retrieved c7c3drv6pai36o3orqit4e96iikp882h2 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/7/c3drv6pai36o3orqit4e96iikp882h2R)
+[2024-01-21T22:29:20.980692 19512] Reading embedded entry #0 .o (68634 bytes)
+[2024-01-21T22:29:20.980720 19512] Writing to module.serial_utils.o
+[2024-01-21T22:29:20.981192 19512] Succeeded getting cached result
+[2024-01-21T22:29:20.981246 19512] Result: direct_cache_hit
+[2024-01-21T22:29:20.981254 19512] Result: local_storage_hit
+[2024-01-21T22:29:20.981260 19512] Result: local_storage_read_hit
+[2024-01-21T22:29:20.981266 19512] Result: local_storage_read_hit
+[2024-01-21T22:29:20.981277 19512] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2024-01-21T22:29:20.982667 19512] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2024-01-21T22:29:20.984024 19512] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2024-01-21T22:29:20.984097 19512] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2024-01-21T22:29:20.991916 3096 ] Got result key from manifest
+[2024-01-21T22:29:20.991985 3096 ] Result key: d0112ak3gsjqt5kq092n5e4qvt8l7lj30
+[2024-01-21T22:29:20.992256 3096 ] Retrieved d0112ak3gsjqt5kq092n5e4qvt8l7lj30 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/0/112ak3gsjqt5kq092n5e4qvt8l7lj30R)
+[2024-01-21T22:29:20.992735 3096 ] Reading embedded entry #0 .o (7825 bytes)
+[2024-01-21T22:29:20.992778 3096 ] Writing to module.tkinter-preLoad.o
+[2024-01-21T22:29:20.993363 3096 ] Succeeded getting cached result
+[2024-01-21T22:29:20.993466 3096 ] Result: direct_cache_hit
+[2024-01-21T22:29:20.993477 3096 ] Result: local_storage_hit
+[2024-01-21T22:29:20.993485 3096 ] Result: local_storage_read_hit
+[2024-01-21T22:29:20.993492 3096 ] Result: local_storage_read_hit
+[2024-01-21T22:29:20.993507 3096 ] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/8/stats.lock
+[2024-01-21T22:29:20.995394 3096 ] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/8/stats.lock
+[2024-01-21T22:29:20.997127 3096 ] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/8/stats.lock
+[2024-01-21T22:29:20.997251 3096 ] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/8/stats.lock
+[2024-01-21T22:29:21.010914 16916] Got result key from manifest
+[2024-01-21T22:29:21.010966 16916] Result key: 1b1449c84ihm2ibqa9lbmal087pfpqi0k
+[2024-01-21T22:29:21.011118 16916] Retrieved 1b1449c84ihm2ibqa9lbmal087pfpqi0k from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/b/1449c84ihm2ibqa9lbmal087pfpqi0kR)
+[2024-01-21T22:29:21.011346 16916] Reading embedded entry #0 .o (9984 bytes)
+[2024-01-21T22:29:21.011358 16916] Writing to static_src\MainProgram.o
+[2024-01-21T22:29:21.011713 16916] Succeeded getting cached result
+[2024-01-21T22:29:21.011767 16916] Result: direct_cache_hit
+[2024-01-21T22:29:21.011775 16916] Result: local_storage_hit
+[2024-01-21T22:29:21.011781 16916] Result: local_storage_read_hit
+[2024-01-21T22:29:21.011787 16916] Result: local_storage_read_hit
+[2024-01-21T22:29:21.011798 16916] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/4/stats.lock
+[2024-01-21T22:29:21.012610 16916] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/4/stats.lock
+[2024-01-21T22:29:21.013521 16916] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/4/stats.lock
+[2024-01-21T22:29:21.013603 16916] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/4/stats.lock
+[2024-01-21T22:29:21.134557 20296] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-21T22:29:21.134630 20296] Configuration file: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-21T22:29:21.134642 20296] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-21T22:29:21.134642 20296] Config: (default) absolute_paths_in_stderr = false
+[2024-01-21T22:29:21.134642 20296] Config: (default) base_dir = 
+[2024-01-21T22:29:21.134642 20296] Config: (environment) cache_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-21T22:29:21.134642 20296] Config: (default) compiler = 
+[2024-01-21T22:29:21.134642 20296] Config: (default) compiler_check = mtime
+[2024-01-21T22:29:21.134642 20296] Config: (default) compiler_type = auto
+[2024-01-21T22:29:21.134642 20296] Config: (default) compression = true
+[2024-01-21T22:29:21.134642 20296] Config: (default) compression_level = 0
+[2024-01-21T22:29:21.134642 20296] Config: (default) cpp_extension = 
+[2024-01-21T22:29:21.134642 20296] Config: (default) debug = false
+[2024-01-21T22:29:21.134642 20296] Config: (default) debug_dir = 
+[2024-01-21T22:29:21.134642 20296] Config: (default) depend_mode = false
+[2024-01-21T22:29:21.134642 20296] Config: (default) direct_mode = true
+[2024-01-21T22:29:21.134642 20296] Config: (default) disable = false
+[2024-01-21T22:29:21.134642 20296] Config: (default) extra_files_to_hash = 
+[2024-01-21T22:29:21.134642 20296] Config: (default) file_clone = false
+[2024-01-21T22:29:21.134642 20296] Config: (default) hard_link = false
+[2024-01-21T22:29:21.134642 20296] Config: (default) hash_dir = true
+[2024-01-21T22:29:21.134642 20296] Config: (default) ignore_headers_in_manifest = 
+[2024-01-21T22:29:21.134642 20296] Config: (default) ignore_options = 
+[2024-01-21T22:29:21.134642 20296] Config: (default) inode_cache = true
+[2024-01-21T22:29:21.134642 20296] Config: (default) keep_comments_cpp = false
+[2024-01-21T22:29:21.134642 20296] Config: (environment) log_file = D:\K5_Tools\main.build\ccache-10860.txt
+[2024-01-21T22:29:21.134642 20296] Config: (default) max_files = 0
+[2024-01-21T22:29:21.134642 20296] Config: (default) max_size = 5.0 GiB
+[2024-01-21T22:29:21.134642 20296] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-21T22:29:21.134642 20296] Config: (default) namespace = 
+[2024-01-21T22:29:21.134642 20296] Config: (default) path = 
+[2024-01-21T22:29:21.134642 20296] Config: (default) pch_external_checksum = false
+[2024-01-21T22:29:21.134642 20296] Config: (default) prefix_command = 
+[2024-01-21T22:29:21.134642 20296] Config: (default) prefix_command_cpp = 
+[2024-01-21T22:29:21.134642 20296] Config: (default) read_only = false
+[2024-01-21T22:29:21.134642 20296] Config: (default) read_only_direct = false
+[2024-01-21T22:29:21.134642 20296] Config: (default) recache = false
+[2024-01-21T22:29:21.134642 20296] Config: (default) remote_only = false
+[2024-01-21T22:29:21.134642 20296] Config: (default) remote_storage = 
+[2024-01-21T22:29:21.134642 20296] Config: (default) reshare = false
+[2024-01-21T22:29:21.134642 20296] Config: (default) run_second_cpp = true
+[2024-01-21T22:29:21.134642 20296] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-21T22:29:21.134642 20296] Config: (default) stats = true
+[2024-01-21T22:29:21.134642 20296] Config: (default) stats_log = 
+[2024-01-21T22:29:21.134642 20296] Config: (default) temporary_dir = C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-21T22:29:21.134642 20296] Config: (default) umask = 
+[2024-01-21T22:29:21.134749 20296] Command line: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\ccache.exe C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2024-01-21T22:29:21.141372 20296] Hostname: DESKTOP-AV6P7DD
+[2024-01-21T22:29:21.141490 20296] Working directory: D:/K5_Tools/main.build
+[2024-01-21T22:29:21.141504 20296] Compiler: C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe
+[2024-01-21T22:29:21.141511 20296] Compiler type: gcc
+[2024-01-21T22:29:21.141986 20296] Source file: static_src\CompiledFunctionType.c
+[2024-01-21T22:29:21.142004 20296] Object file: static_src\CompiledFunctionType.o
+[2024-01-21T22:29:21.142178 20296] Trying direct lookup
+[2024-01-21T22:29:21.142650 20296] Manifest key: 45bcksq2qn62d07mk4tlnser1q82m5tl8
+[2024-01-21T22:29:21.142944 20296] Retrieved 45bcksq2qn62d07mk4tlnser1q82m5tl8 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/5/bcksq2qn62d07mk4tlnser1q82m5tl8M)
+[2024-01-21T22:29:21.231739 20296] Got result key from manifest
+[2024-01-21T22:29:21.231783 20296] Result key: f732s3tekep0dimb3fuc3udshenm2djt2
+[2024-01-21T22:29:21.232040 20296] Retrieved f732s3tekep0dimb3fuc3udshenm2djt2 from local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/7/32s3tekep0dimb3fuc3udshenm2djt2R)
+[2024-01-21T22:29:21.233617 20296] Reading embedded entry #0 .o (888103 bytes)
+[2024-01-21T22:29:21.233642 20296] Writing to static_src\CompiledFunctionType.o
+[2024-01-21T22:29:21.234571 20296] Succeeded getting cached result
+[2024-01-21T22:29:21.234667 20296] Result: direct_cache_hit
+[2024-01-21T22:29:21.234676 20296] Result: local_storage_hit
+[2024-01-21T22:29:21.234682 20296] Result: local_storage_read_hit
+[2024-01-21T22:29:21.234688 20296] Result: local_storage_read_hit
+[2024-01-21T22:29:21.234701 20296] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/8/stats.lock
+[2024-01-21T22:29:21.235533 20296] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/8/stats.lock
+[2024-01-21T22:29:21.236496 20296] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/8/stats.lock
+[2024-01-21T22:29:21.236585 20296] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/8/stats.lock
+[2024-01-21T22:29:21.518654 12392] Got result key from preprocessor
+[2024-01-21T22:29:21.518702 12392] Result key: 10f6v92mi7bste6se8v0c3gesgakuegoo
+[2024-01-21T22:29:21.518924 12392] No 10f6v92mi7bste6se8v0c3gesgakuegoo in local storage
+[2024-01-21T22:29:21.518955 12392] Running real compiler
+[2024-01-21T22:29:21.519456 12392] Executing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw32\bin\gcc.exe -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE_MODE -D_NUITKA_ONEFILE_TEMP_BOOL -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\include -I. -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Yang\AppData\Local\Programs\Python\PYTHON~2\Lib\SITE-P~1\nuitka\build\static_src -c -fdiagnostics-color -o module.functions.o module.functions.c
+[2024-01-21T22:29:23.353863 12392] Using default compression level 1
+[2024-01-21T22:29:23.353988 12392] Storing embedded entry #0 .o (53414 bytes) from module.functions.o
+[2024-01-21T22:29:23.355152 12392] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_10.lock
+[2024-01-21T22:29:23.355338 12392] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_10.lock
+[2024-01-21T22:29:23.355713 12392] Stored 10f6v92mi7bste6se8v0c3gesgakuegoo in local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/f6v92mi7bste6se8v0c3gesgakuegooR)
+[2024-01-21T22:29:23.355822 12392] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2024-01-21T22:29:23.355962 12392] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2024-01-21T22:29:23.356992 12392] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2024-01-21T22:29:23.357081 12392] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2024-01-21T22:29:23.357091 12392] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_10.lock
+[2024-01-21T22:29:23.357141 12392] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_10.lock
+[2024-01-21T22:29:23.376537 12392] Added result key to manifest b4f5da3r9ddshlb1i7lk20dc70rgeol8q
+[2024-01-21T22:29:23.376576 12392] Using default compression level 1
+[2024-01-21T22:29:23.377532 12392] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_b4.lock
+[2024-01-21T22:29:23.377683 12392] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_b4.lock
+[2024-01-21T22:29:23.378008 12392] Stored b4f5da3r9ddshlb1i7lk20dc70rgeol8q in local storage (C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/4/f5da3r9ddshlb1i7lk20dc70rgeol8qM)
+[2024-01-21T22:29:23.378105 12392] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2024-01-21T22:29:23.378281 12392] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2024-01-21T22:29:23.379282 12392] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2024-01-21T22:29:23.379368 12392] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2024-01-21T22:29:23.379378 12392] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_b4.lock
+[2024-01-21T22:29:23.379451 12392] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_b4.lock
+[2024-01-21T22:29:23.379594 12392] Result: cache_miss
+[2024-01-21T22:29:23.379605 12392] Result: direct_cache_miss
+[2024-01-21T22:29:23.379611 12392] Result: local_storage_miss
+[2024-01-21T22:29:23.379617 12392] Result: local_storage_read_miss
+[2024-01-21T22:29:23.379623 12392] Result: local_storage_read_miss
+[2024-01-21T22:29:23.379628 12392] Result: local_storage_write
+[2024-01-21T22:29:23.379634 12392] Result: local_storage_write
+[2024-01-21T22:29:23.379640 12392] Result: preprocessed_cache_miss
+[2024-01-21T22:29:23.379651 12392] Acquiring C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/stats.lock
+[2024-01-21T22:29:23.379806 12392] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/stats.lock
+[2024-01-21T22:29:23.380852 12392] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/stats.lock
+[2024-01-21T22:29:23.380976 12392] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/stats.lock
+[2024-01-21T22:29:23.381116 12392] Trying to acquire C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/auto_cleanup.lock
+[2024-01-21T22:29:23.381313 12392] Acquired C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/auto_cleanup.lock
+[2024-01-21T22:29:23.382984 12392] No automatic cleanup needed (size 20.9 MiB, files 737, max size 5.0 GiB)
+[2024-01-21T22:29:23.383016 12392] Releasing C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/auto_cleanup.lock
+[2024-01-21T22:29:23.383109 12392] Released C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/auto_cleanup.lock
+[2024-01-21T22:29:23.383361 12392] Unlink C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/stderr.tmp.fgVHJg.tmp
+[2024-01-21T22:29:23.383507 12392] Unlink C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/stdout.tmp.CjQLYQ.tmp
+[2024-01-21T22:29:23.383625 12392] Unlink C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/stderr.tmp.GzdlDl.tmp
+[2024-01-21T22:29:23.384068 12392] Unlink C:\Users\Yang\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/cpp_stdout.tmp.VvaAuS.i
